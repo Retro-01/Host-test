@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(60deg,rgb(30,30,30),rgb(49,49,49),rgb(51, 50, 50));
+   }
+nav{
+    display: flex;
+    margin-top: 0px;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(127, 129, 129);
+    border-bottom-style: groove;
+    background-color: rgb(33, 33, 33);
+}
+
+nav .im img{
+    padding-left: 35px;
+    padding-top: -12px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+input{
+    margin-left: 30px;
+    margin-top: 2.5em;
+    padding-left: 23px;
+    border-radius: 20px;
+    background-color: rgb(49, 49, 49);
+    border: 1px;
+    color: antiquewhite;
+    height: 3.5em;
+    width: 25%;
+    animation-name: input;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.im{
+    width: 17em;
+    height: 5em;
+    border-right-style: solid;
+    border-right-color: rgb(49, 49, 49);
+    border-right-width: 3px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+input:hover{
+    background-color: 1px rgb(211, 59, 85);
+    color: rgb(211, 59, 85);
+}
+nav ul{
+    display: flex;
+    margin-top: 42px;
+    margin-left: 12em;
+    animation: ul 1.6s 1 forwards;
+}
+nav li{
+    list-style: none;
+    font-size: 15px;
+    font-family: cursive;
+    padding-right: 30px;
+}
+nav a{
+    color: rgb(79, 77, 77);
+    text-decoration: none;
+}
+nav li .active{
+    color:  rgb(211, 59, 85);
+}
+nav li a:hover{
+        color: rgb(207, 203, 203);
+        transition: 0.5s;
+}   
+.profile{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    height: 3em;
+    width: 7em;
+    margin-top: -10px;
+    border-radius: 25px;
+    color: antiquewhite;
+}
+.profile img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-top: 6px;
+    padding-bottom: 5px;
+    margin-left: -17px;
+}
+.profile .lass{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: rgb(238, 236, 236); */
+}
+ .profile:hover{
+    background-color: rgb(223, 42, 72);
+    transition: 0.8s;
+    color: aliceblue;
+} 
+.flex{
+    display: flex;
+}
+.cover{
+    background-color: rgb(30, 30, 30);  
+    width: 55em;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 200vh;
+    border-color: rgb(211, 59, 85);
+    border-width: 3px;
+} .may{
+    background-color: rgb(30, 30, 30);
+    width: 23em;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 46vh;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+.may h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 15px;            
+    padding-left: 17px;
+    color: antiquewhite;
+}
+.may img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.may .rate{
+    display: flex;
+    border-bottom-color: grey;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+.may .rate h1{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: -2px;
+    padding-left: -1px;
+    font-size: 15px;
+}
+.may .rate h1 span{
+    color: gray;
+    font-style: italic;
+    padding-top: 10px;
+    border-bottom: 2px;
+}
+.may .rate .own input{
+    width: 20em;
+    height: 7em;
+    background-color: transparent;
+    border-width: 1px;
+    margin-left: -15px;
+    margin-top: -25px;
+    border-color: rgb(119, 116, 111);
+    border-bottom: none;
+    color: gray;
+    font: italic;
+}
+.may .rate input::placeholder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(223, 42, 72);
+    margin-top: -5px;
+}.cover .first img{
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20%;
+}
+.first{
+    display: flex;
+}
+.first h1{
+    padding-top: 55px;
+    padding-left: 40px;
+    line-height: 45px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    text-transform: capitalize;
+}
+.free button{
+    /* margin-left: 55px; */
+    width: 30em;
+    height: 4em;
+    border-radius: 20px;
+    font-size: 17px;
+    background-image: linear-gradient(90deg, rgb(211,59,85) , rgb(30,30,30));
+    color: aliceblue;
+    font-weight: 800;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 2s;
+    margin-left: 30px;
+}
+.free button:hover{
+    background-image: linear-gradient(75deg, rgb(30,30,30) , rgb(211,59,85));
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}              @keyframes move {
+    from{ opacity: 0.3;transform: translateX(-900px);}
+    to{ opacity: 1;transform: translateX(2px);}
+   }
+   @keyframes up {
+    from{ opacity: 0.1;transform: translateY(400px);}
+    to{ opacity: 1; transform: translateY(-20px);}
+   }
+   @keyframes abst {
+    from{ opacity: 0.2;transform: translateX(300px);}
+    to{opacity: 1;transform: translateX(-1px);}
+   }
+   @keyframes nod {
+    0%{ transform: scale(0.2);}
+   }
+   .screenshot{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 0px;
+    animation-name: up;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+   }
+   .screenshot .last{
+    animation-name: abst;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+   }
+   .screenshot h1{
+    padding-left: 40px;
+   }
+   .screenshot h1 span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(211, 59, 85);
+   }
+   .footer{
+    background-color: blueviolet;
+    text-align: center ;
+    color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    position: sticky;
+    bottom: 7px;
+   } 
+   .last{
+    animation-name: abst;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+   }
+   .screenshot img{
+    border-radius: 5%;
+    margin-left: 27px;
+   }
+   .screenshot .vid{
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    height: 18em;
+    border-radius: 10px;
+    margin-top  : 40px;
+   }
+   .screenshot .vid video{
+    width: 17em;
+    border-radius: 20%;
+   }
+   .nd{
+    background-color: blueviolet;
+        width: 23em;
+        margin-left:140px;
+        margin-top: 20px;
+        border-radius: 20px;
+        height: 95vh;
+        animation-name: nod;
+        animation-duration: 1.5s;
+        animation-direction: normal;
+   }.cover .first img:hover{
+    box-shadow: 2px 10px 15px 25px rgba(0, 0, 0, 0.5);
+    animation-name: shadow;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+@keyframes shadow {
+    0% { opacity: 0.5;transform: scale(0.7);}
+    /* 20% { transform: translateY(-30px);}
+    40% { transform: translateX(30px)} */
+    50% { opacity: 1;transform: scale(1.03);}
+    100% {opacity: 0.7;transform: scale(0.65);}
+}
+   .free p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 22px;
+    text-transform: uppercase;
+    color: aliceblue;
+   }
+   .free p span{
+    text-transform: none;
+    color: rgb(127, 129, 129);
+    font-style: italic;
+   }

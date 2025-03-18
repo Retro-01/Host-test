@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form❔</title>
+ </head>
+   <style>
+    body{
+        background-image: linear-gradient(75deg,rgb(48, 47, 47),rgb(34, 32, 32),rgb(49, 49, 49));
+    }
+    .wrapper{
+        background-image: linear-gradient(75deg,#f30404e8,#e70489,#0468da);
+        height: 66vh;
+        width: 24%;
+        margin-left: 17em;
+        margin-top: 90px;
+        border-radius: 20px;
+        box-shadow: 5px 10px 15px 25px rgba(0,0,0,0.5);
+        animation-name: move;
+        animation-duration: 2.7s;
+        animation-fill-mode: forwards;
+        animation-delay: 0s;
+    }
+    h1{
+        color: white;
+        font-family: cursive;
+        padding-top: 25px;
+        text-align: center;
+    }
+    form{
+        background-color: rgb(30, 30, 30);
+        height: 48vh;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        animation-name: form;
+        animation-duration: 4s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes form {
+      0%{ transform: translateY(100px);}
+       20% { transform: translateY(-10px);}
+     /* 7%{ transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg) ; }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); } */
+    }
+    @keyframes input {
+      from{ transform: translateX(200px);}
+    }
+    @keyframes inputn {
+      from{ transform: translateX(270px);}
+    }
+    .one span input{
+      animation-name: inputn;
+      animation-duration: 2.5s;
+    }
+    input::placeholder, input{
+            width: 90%;
+            height: 4vh;
+            border-radius: 20px;
+            padding-left: 20px;
+            font-style: italic;
+            font-family: cursive;
+    }
+   .one input{
+        margin-top: 30px;
+        background-color: rgb(30, 30, 30);
+        margin-left: 20px;
+        height: 6.5vh;
+        width: 80%;
+        border-radius: 20px;
+        text-align: left;
+        font-size: medium;
+        color: white;
+        border-top: none;
+        border-right: #ff00d9;
+        border-left: #ff00d9;
+        animation-name: input;
+        animation-duration: 2s;
+        border-bottom-color: rgb(48, 47, 47);
+        border-bottom-width:2px;
+   }
+   .f {
+    display: flex;
+   }
+    button{
+        width: 80%;
+        height: 6vh;
+        background-image: linear-gradient(65deg,#f30404e8,#e70489,#1ca0dd);
+        color: white;
+        font-size: 16px;
+        border-radius: 15px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+   a{
+    text-align: center;
+   }
+   p{
+        text-align: center;
+        color: white;
+    }
+    h1:hover{ 
+        color: black;
+        text-transform: uppercase;
+        transition: 1.5s;
+        text-decoration: underline;
+    }
+    .footer input{
+      width: 20px;
+      height: 15px;
+      margin-left: 25px;
+      margin-top: 7.5px;
+    }
+    .footer label{
+      color: aliceblue;
+    }
+    .footer button a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    .ne img{
+      margin-top: 5em;
+      animation-name: up;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      
+    }
+    .ne p{
+      text-align: left;
+      padding-left: 20px;
+      font-family: cursive;
+      animation: move 1.5s forwards;
+    }
+    .ne p span{
+      color: #ff00d9;
+    }
+    .ne{
+      margin-left: 3em;
+    }
+    @keyframes up {
+      0%{ transform: translateY(-200px);}
+      20%{ transform: translateY(40px);}
+      40%{ transform: translateY(45px);}
+      80%{ transform: translate(30px);}
+      100%{ transform: translateX(-40px);}   
+    }
+    @keyframes move {
+      0% { scale: 0.2; z-index: -1; opacity: 0.2; transform: translateX(-350px);}
+      20% { transform: translateX(10px);}
+      /* from{ transform: translateX(350px);}
+      to{ transform: translateX(-20px);} */
+      /* 0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); } */
+    }
+    @keyframes about {
+      0%{ transform: translate(10px 10px) translateY(10px);}
+    }
+ </style>
+    <body>
+      <div class="f">
+      <div class="ne">
+        <img src="./PICS/test.png" img width="550" img height="200">
+        <br>
+        <p>BEST GAMING WEBSITE WITH GAME THAT ARE THREAT FREE✔<BR>
+          <span>
+           Trusted by millions.</span></p>
+      </div>
+        <div class="wrapper">
+           <h1>Login Form</h1>          
+              <form> 
+                <div class="one">             
+                 <input type="email" placeholder="Email Address">
+                    <span><input type="password" placeholder="Password"></span>
+                  </div>
+                    <div class="footer">
+                      <input type="checkbox">
+                      <label aria-required="true">Verify you are human</label>
+                      <br>
+                      
+                        <button><a href="retro games.html">LOGIN</a></button> 
+                          <p>Not a member? <a href="form 3.html">Signup now</a></p>
+                </form>
+       </div>
+      </div>
+    </body>
+</html>
+            
+           
