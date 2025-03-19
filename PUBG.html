@@ -100,6 +100,75 @@
 </div>
 
  </div>
+    /* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  
+  /* Center and scale content */
+  section {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* Adjust header */
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  /* Navigation */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  /* Buttons */
+  a.download {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  a.download:hover {
+    background-color: #0056b3;
+  }
  
 </body>
 </html>
